@@ -96,7 +96,7 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 5.5em 10rem 13em 5rem;
+    padding: 3em 10rem 13em 5rem;
 }
 
 .hero-text {
@@ -112,14 +112,14 @@ footer {
 .hero-heading {
     font-family: var(--ff--main--hero);
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-style: bold;
     color: var(--clr--heading--blue);
 }   
 
 .hero-paragraph {
     font-family: var(--ff--paragraph--hero);
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .hero-text .order-btn {
