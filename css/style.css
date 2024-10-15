@@ -34,6 +34,10 @@ footer {
     padding: 0;
 }
 
+/* html {
+    scroll-behavior: smooth;
+} */
+
 .header {
     display: flex;
     flex-wrap: wrap;
