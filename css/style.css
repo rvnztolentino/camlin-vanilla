@@ -133,20 +133,69 @@ footer {
     /*transition: 50ms;*/
 }
 
-.hero-image {
-    width: 300px;
-    height: 200px;
-    display: flex;
-    padding-left: 10em;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-height: 600px) {
+    .hero-image {
+        width: 200px;
+        height: 100px;
+        display: flex;
+        padding-left: 10em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-image > * {
+        position: absolute;
+        width: 450px;
+    }
 }
 
-.hero-image > * {
-    position: absolute;
-    width: 550px;
+@media only screen and (min-height: 600px) {
+    .hero-image {
+        width: 250px;
+        height: 150px;
+        display: flex;
+        padding-left: 10em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-image > * {
+        position: absolute;
+        width: 450px;
+    }
 }
 
+@media only screen and (min-height: 750px) {
+    .hero-image {
+        width: 250px;
+        height: 150px;
+        display: flex;
+        padding-left: 10em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-image > * {
+        position: absolute;
+        width: 490px;
+    }
+}
+
+@media only screen and (min-height: 1000px) {
+    .hero-image {
+        width: 300px;
+        height: 200px;
+        display: flex;
+        padding-left: 10em;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .hero-image > * {
+        position: absolute;
+        width: 530px;
+    }
+}
 
 .products {
     display: flex;
@@ -192,16 +241,13 @@ footer {
     height: auto;
 }
 
-/* COPY TO ALL CSS, NO SCALING NEEDED */
-
 .product-image {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
-
 
 .product-title,.product-description,.product-price  {
     font-family: var(--ff--header--nav);
@@ -316,6 +362,3 @@ footer {
 .footer {
     padding: 2em 0;
 }
-
-
-
