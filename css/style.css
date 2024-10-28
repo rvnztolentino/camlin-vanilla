@@ -183,8 +183,8 @@ footer {
 
 @media only screen and (min-height: 1000px) {
     .hero-image {
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 150px;
         display: flex;
         padding-left: 10em;
         justify-content: center;
