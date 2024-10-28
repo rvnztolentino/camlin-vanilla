@@ -165,7 +165,7 @@ footer {
     }
 }
 
-@media only screen and (min-height: 700px) {
+@media only screen and (min-height: 800px) {
     .hero-image {
         width: 250px;
         height: 150px;
@@ -177,7 +177,7 @@ footer {
     
     .hero-image > * {
         position: absolute;
-        width: 490px;
+        width: 530px;
     }
 }
 
