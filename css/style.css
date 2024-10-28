@@ -177,7 +177,7 @@ footer {
     
     .hero-image > * {
         position: absolute;
-        width: 530px;
+        width: 500px
     }
 }
 
@@ -193,7 +193,7 @@ footer {
     
     .hero-image > * {
         position: absolute;
-        width: 480px;
+        width: 450px;
     }
 }
 
